@@ -2,7 +2,7 @@ package com.xinpeng.crud.controller;
 
 import com.xinpeng.crud.bean.Department;
 import com.xinpeng.crud.bean.Msg;
-import com.xinpeng.crud.service.DepartmentService;
+import com.xinpeng.crud.impl.DepartmentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,12 +18,12 @@ import java.util.List;
 public class DepartmentController {
 
     @Autowired
-    DepartmentService departmentService;
+    DepartmentServiceImpl departmentServiceImpl;
 
     @RequestMapping("/depts")
     @ResponseBody
     public Msg getDepts(){
-        List<Department> list = departmentService.getAllDepts();
+        List<Department> list = departmentServiceImpl.getAllDepts();
         return Msg.success().add("depts",list);
     }
 }

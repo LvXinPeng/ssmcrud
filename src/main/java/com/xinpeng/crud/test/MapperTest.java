@@ -1,10 +1,8 @@
 package com.xinpeng.crud.test;
 
-import com.xinpeng.crud.bean.Department;
 import com.xinpeng.crud.bean.Employee;
 import com.xinpeng.crud.dao.DepartmentMapper;
 import com.xinpeng.crud.dao.EmployeeMapper;
-import org.apache.ibatis.reflection.SystemMetaObject;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,8 +34,8 @@ public class MapperTest {
         System.out.println(departmentMapper);
 
         //1.插入几个部门
-        //departmentMapper.insertSelective(new Department(null,"开发部"));
-        //departmentMapper.insertSelective(new Department(null,"测试部"));
+        //departmentMapper.insertSelective(new DepartmentService(null,"开发部"));
+        //departmentMapper.insertSelective(new DepartmentService(null,"测试部"));
         //2.生成员工数据
         employeeMapper.insertSelective(new Employee(null,"jerry","M","jerry@126.com",1));
      }

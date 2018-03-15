@@ -83,8 +83,8 @@
   <sql id="WithDept_Base_Column_List">
     emp_id, emp_name, gender, email, d_id, dept_id,dept_name
   </sql>
-  <!--    List<Employee> selectByExampleWithDept(EmployeeExample example);
-    Employee selectByPrimaryKeyWithDept(Integer empId);-->
+  <!--    List<EmployeeService> selectByExampleWithDept(EmployeeExample example);
+    EmployeeService selectByPrimaryKeyWithDept(Integer empId);-->
   <select id="selectByExampleWithDept" resultMap="WithDeptResultMap">
     select
     <if test="distinct">

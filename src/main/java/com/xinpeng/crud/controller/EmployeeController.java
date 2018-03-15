@@ -4,7 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.xinpeng.crud.bean.Employee;
 import com.xinpeng.crud.bean.Msg;
-import com.xinpeng.crud.service.EmployeeService;
+import com.xinpeng.crud.impl.EmployeeServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -29,7 +29,7 @@ import java.util.Map;
 public class EmployeeController {
 
     @Autowired
-    EmployeeService employeeService;
+    EmployeeServiceImpl employeeServiceImpl;
 
     /**
      * 分页查询员工数据 并以JSON格式返回数据
@@ -42,7 +42,7 @@ public class EmployeeController {
 
         //传入页码以及每页的大小
         PageHelper.startPage(pn, 5);
-        List<Employee> emps = employeeService.getAll();
+        List<Employee> emps = employeeServiceImpl.getAll();
         //封装了详细的分页信息，包括查询数据
         PageInfo page = new PageInfo(emps, 5);
         return Msg.success().add("pageInfo", page);
@@ -56,7 +56,7 @@ public class EmployeeController {
     @RequestMapping(value = "/emp/{id}", method = RequestMethod.GET)
     @ResponseBody
     public Msg getEmp(@PathVariable("id") Integer id) {
-        Employee employee = employeeService.getEmp(id);
+        Employee employee = employeeServiceImpl.getEmp(id);
         return Msg.success().add("employee", employee);
     }
 
@@ -80,7 +80,7 @@ public class EmployeeController {
             }
             return Msg.fail().add("errorFields", map);
         }else{
-            employeeService.saveEmp(employee);
+            employeeServiceImpl.saveEmp(employee);
             return Msg.success();
         }
 
@@ -98,7 +98,7 @@ public class EmployeeController {
         if (!empName.matches(regx)) {
             return Msg.fail().add("validate_msg", "用户名不正确");
         }
-        boolean b = employeeService.checkUser(empName);
+        boolean b = employeeServiceImpl.checkUser(empName);
         if (b) {
             return Msg.success();
         } else {
@@ -115,7 +115,7 @@ public class EmployeeController {
     @ResponseBody
     @RequestMapping(value = "/emp/{empId}", method = RequestMethod.PUT)
     public Msg updateEmp(Employee employee) {
-        employeeService.updateEmp(employee);
+        employeeServiceImpl.updateEmp(employee);
         return Msg.success();
     }
 
@@ -135,10 +135,10 @@ public class EmployeeController {
                     ) {
                 del_str.add(Integer.parseInt(string));
             }
-            employeeService.deleteManyEmp(del_str);
+            employeeServiceImpl.deleteManyEmp(del_str);
         } else {
             Integer id = Integer.parseInt(ids);
-            employeeService.deleteEmp(id);
+            employeeServiceImpl.deleteEmp(id);
         }
         return Msg.success();
     }
@@ -155,7 +155,7 @@ public class EmployeeController {
                           Model model) {
         //传入页码以及每页的大小
         PageHelper.startPage(pn, 5);
-        List<Employee> emps = employeeService.getAll();
+        List<Employee> emps = employeeServiceImpl.getAll();
         //封装了详细的分页信息，包括查询数据
         PageInfo page = new PageInfo(emps, 5);
         model.addAttribute("pageInfo", page);
