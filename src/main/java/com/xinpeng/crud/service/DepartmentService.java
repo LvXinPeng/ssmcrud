@@ -9,5 +9,6 @@ import java.util.List;
  * @Date 2018/3/15 19:04
  */
 public interface DepartmentService {
-    public List<Department> getAllDepts();
+
+    List<Department> getAllDepts();
 }

@@ -1,6 +1,7 @@
 package com.xinpeng.crud.service;
 
 import com.xinpeng.crud.bean.Employee;
+
 import java.util.List;
 
 /**
@@ -10,10 +11,16 @@ import java.util.List;
 public interface EmployeeService {
 
     List<Employee> getAll();
+
     void saveEmp(Employee employee);
+
     boolean checkUser(String empName);
+
     Employee getEmp(Integer id);
+
     void updateEmp(Employee employee);
+
     void deleteEmp(Integer id);
+
     void deleteManyEmp(List<Integer> ids);
 }

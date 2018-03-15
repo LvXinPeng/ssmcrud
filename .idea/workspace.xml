@@ -6,18 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="684e2dbd-f8ba-4cef-834b-7b29e81bd0ce" name="Default" comment="更改结构">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssmcrud/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssmcrud/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/DepartmentServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/EmployeeServiceImpl.java" />
+    <list default="true" id="684e2dbd-f8ba-4cef-834b-7b29e81bd0ce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssmcrud/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ssmcrud/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/controller/DepartmentController.java" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/controller/DepartmentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/controller/EmployeeController.java" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/controller/EmployeeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/DepartmentService.java" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/DepartmentService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/EmployeeService.java" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/EmployeeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/test/MapperTest.java" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/test/MapperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssmcrud/src/main/resources/mapper/EmployeeMapper.xml" afterPath="$PROJECT_DIR$/../ssmcrud/src/main/resources/mapper/EmployeeMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../ssmcrud/out/" />
     <ignored path="$PROJECT_DIR$/../ssmcrud/target/" />
@@ -59,23 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/EmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/test/MapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-377">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="540">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +66,7 @@
       <file leaf-file-name="EmployeeServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/EmployeeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="-65">
               <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,30 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/resources/mapper/EmployeeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="123" column="40" lean-forward="false" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="40" />
-              <folding>
-                <marker date="1521112013478" expanded="true" signature="4378:4540" ph="select from tb_emp" />
-                <marker date="1521112013478" expanded="true" signature="5066:5174" ph="select from tb_emp" />
-                <marker date="1521112013478" expanded="true" signature="5260:5323" ph="delete from " />
-                <marker date="1521112013478" expanded="true" signature="5426:5444" ph="delete from " />
-                <marker date="1521112013478" expanded="true" signature="5623:5840" ph="insert into tb_emp... " />
-                <marker date="1521112013478" expanded="true" signature="6915:6942" ph="select count... tb_emp" />
-                <marker date="1521112013478" expanded="true" signature="7825:8081" ph="update tb_em... " />
-                <marker date="1521112013478" expanded="true" signature="8291:8720" ph="update tb_em... " />
-                <marker date="1521112013478" expanded="true" signature="8819:9043" ph="update tb_em... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="1295">
               <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
               <folding />
             </state>
@@ -147,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepartmentService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DepartmentService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/DepartmentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="384">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,9 +178,9 @@
         <option value="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/iservice/DepartmentService.java" />
         <option value="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/Employee.java" />
         <option value="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/DepartmentService.java" />
         <option value="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/DepartmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/DepartmentService.java" />
       </list>
     </option>
   </component>
@@ -813,8 +773,16 @@
       <workItem from="1520988508132" duration="9415000" />
       <workItem from="1521077304168" duration="687000" />
       <workItem from="1521079115328" duration="4078000" />
-      <workItem from="1521109848182" duration="2744000" />
+      <workItem from="1521109848182" duration="3658000" />
     </task>
+    <task id="LOCAL-00001" summary="更改结构">
+      <created>1521112789036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521112789036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -850,7 +818,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145973000" />
+    <option name="totallyTimeSpent" value="146887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,6 +831,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64310956" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
@@ -876,12 +845,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34385964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19787987" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19787987" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744405" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24852768" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24028268" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -902,6 +871,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1138,19 +1133,19 @@
         <state relative-caret-position="304">
           <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#843#844#0" expanded="false" />
+            <element signature="e#875#876#0" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#931#932#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#999#1000#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
+            <element signature="e#1070#1071#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1155#1156#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1227,6 +1222,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+          <folding>
+            <marker date="1521112013478" expanded="true" signature="4378:4540" ph="select from tb_emp" />
+            <marker date="1521112013478" expanded="true" signature="5066:5174" ph="select from tb_emp" />
+            <marker date="1521112013478" expanded="true" signature="5260:5323" ph="delete from " />
+            <marker date="1521112013478" expanded="true" signature="5426:5444" ph="delete from " />
+            <marker date="1521112013478" expanded="true" signature="5623:5840" ph="insert into tb_emp... " />
+            <marker date="1521112013478" expanded="true" signature="6915:6942" ph="select count... tb_emp" />
+            <marker date="1521112013478" expanded="true" signature="7825:8081" ph="update tb_em... " />
+            <marker date="1521112013478" expanded="true" signature="8291:8720" ph="update tb_em... " />
+            <marker date="1521112013478" expanded="true" signature="8819:9043" ph="update tb_em... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/test/MapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-377">
@@ -1237,20 +1250,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/DepartmentService.java">
+    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/DepartmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="540">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1259,7 +1262,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/EmployeeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="-65">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1279,34 +1282,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="1295">
           <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/resources/mapper/EmployeeMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/impl/DepartmentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="123" column="40" lean-forward="false" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="40" />
+        <state relative-caret-position="450">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
           <folding>
-            <marker date="1521112013478" expanded="true" signature="4378:4540" ph="select from tb_emp" />
-            <marker date="1521112013478" expanded="true" signature="5066:5174" ph="select from tb_emp" />
-            <marker date="1521112013478" expanded="true" signature="5260:5323" ph="delete from " />
-            <marker date="1521112013478" expanded="true" signature="5426:5444" ph="delete from " />
-            <marker date="1521112013478" expanded="true" signature="5623:5840" ph="insert into tb_emp... " />
-            <marker date="1521112013478" expanded="true" signature="6915:6942" ph="select count... tb_emp" />
-            <marker date="1521112013478" expanded="true" signature="7825:8081" ph="update tb_em... " />
-            <marker date="1521112013478" expanded="true" signature="8291:8720" ph="update tb_em... " />
-            <marker date="1521112013478" expanded="true" signature="8819:9043" ph="update tb_em... " />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/EmployeeService.java">
+    <entry file="file://$PROJECT_DIR$/../ssmcrud/src/main/java/com/xinpeng/crud/service/DepartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="384">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
