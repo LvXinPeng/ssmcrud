@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-aspects
+Implementation-Version: 4.3.13.RELEASE
+Created-By: 1.8.0_144 (Oracle Corporation)
+

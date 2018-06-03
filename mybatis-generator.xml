@@ -46,6 +46,9 @@
         <!--table指定每个表的生成-->
         <table tableName="tb_emp" domainObjectName="Employee" ></table>
         <table tableName="tb_dept" domainObjectName="Department"></table>
+        <table tableName="tb_user" domainObjectName="User"></table>
+        <table tableName="tb_role" domainObjectName="Role"></table>
+        <table tableName="tb_permission" domainObjectName="Permission"></table>
 
     </context>
 </generatorConfiguration>
